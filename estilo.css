@@ -1,0 +1,111 @@
+body{
+    background-color: rgba(252, 240, 74, 0.966);
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cabecalho{
+    background-image: url(WhatsApp\ Image\ 2023-07-13\ at\ 2.41.01\ PM.jpeg);
+    height: 500px;
+    background-size: cover;
+    padding-top: 1px; 
+}
+
+.div-cabecalho{
+    background-color: darkorange;
+    margin: 100px auto 0 auto;
+    width: 80%;
+    text-align: center;
+    color:rgb(65, 42, 9);
+    font-size: larger;
+}
+
+.div-cabecalho h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    text-shadow;: 2px 2px rgba(0, 0, 0, 0.7)
+    border-width: 5px; 
+}
+
+.div-cabecalho a{
+    color:rgb(41, 30, 15);
+    background-color: rgb(240, 149, 85);
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.div-cabecalho a:hover{
+    color:rgb(41, 29, 10);
+    background-color: rgb(100, 64, 16);
+}
+
+.cabecalho nav ul{
+    /*background-color:rgba(252, 240, 74, 0.966);*/
+    margin: 25px 40px 0 0;
+    text-align: right;
+}
+
+.cabecalho nav ul li{
+    list-style-type: none;
+    display:inline-block;
+    margin-left: 15px;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 2px;
+    }
+
+.cabecalho nav a{
+    background-color:rgb(240, 149, 85);
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px;
+    }    
+
+.cabecalho nav a:hover{
+        color:blanchedalmond;
+        background-color: rgb(100, 64, 16);
+    }
+
+main{
+        width: 90%;
+        margin:auto;
+    }
+
+section{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+article{
+        background-color: rgb(231, 183, 23);
+        padding: 15px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    
+article h2{
+        background-color: rgb(61, 37, 19)
+        color:antiquewhite; 
+        margin-top: 0;
+        text-align: center;
+    }
+    
+.config-img{
+        height: 80px;
+        float: left;
+        padding-right: 5px;
+    }
+    
+img:hover{
+        transform: scale(1.1);
+    }
+    
+footer{
+        background-color: rgb(231, 183, 23);
+        padding: 10px;
+        color:rgb(65, 30, 5);
+        text-transform: uppercase;
+        text-align: center;
+    }
